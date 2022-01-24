@@ -6,24 +6,31 @@
 body{
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-}
-.header{
-    text-align: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+.header{
+    text-align: center;
     border-radius: 10px;
     padding: 50px 10px 50px 10px;
     background-color: rgb(66, 138, 201);
     color: white;
 }
 
-table, tr, col{
-    margin-top: 20px;
-    width: 90%;
+table{
     border-collapse: collapse;
-    outline: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
 }
 
+th{
+    background-color: #dddddd;
+}
+th, td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
