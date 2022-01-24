@@ -41,5 +41,6 @@ ul{
     margin-left: 5px;
 }
 ol{
+    list-style-position: outside;
     margin-left: 20px;
 }
