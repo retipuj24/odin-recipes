@@ -36,6 +36,10 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-ul li{
+ul{
     list-style-type: none;
+    margin-left: 5px;
+}
+ol{
+    margin-left: 20px;
 }
