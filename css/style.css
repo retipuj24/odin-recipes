@@ -35,3 +35,7 @@ th, td{
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+ul li{
+    list-style-type: none;
+}
